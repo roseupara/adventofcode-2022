@@ -1,6 +1,7 @@
 input = open("day2/puzzle.txt")
-
 inputValues = input.read().split("\n")
+
+# Part 1 & 2
 
 def getPoints(input): 
     if(input == "X"): 
