@@ -28,6 +28,7 @@ def isTie(input):
     elif(input == "C"):
         return "Z"
 
+# Part 2
 def toLose(input):
     if(input == "C"):
         return "Y"
@@ -63,9 +64,6 @@ for game in inputValues:
         else:
             # Loss
             totalScore += getPoints(response)
-
-
-
 
 #Result
 print(totalScore)
